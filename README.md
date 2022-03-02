@@ -1,6 +1,6 @@
 # BEVT: BERT Pretraining of Video Transformers
 
-Rui Wang<sup>1</sup>, Dongdong Chen<sup>2</sup>, Zuxuan Wu<sup>1</sup>, Yinpeng Chen<sup>2</sup>, Xiyang Dai<sup>2</sup>, Mengchen Liu<sup>2</sup>, Yu-Gang Jiang<sup>1</sup>, Luowei Zhou<sup>2</sup>, Lu Yuan<sup>2</sup>
+Rui Wang<sup>1</sup>, Dongdong Chen<sup>2</sup>, Zuxuan Wu<sup>1</sup>, Yinpeng Chen<sup>2</sup>, Xiyang Dai<sup>2</sup>, Mengchen Liu<sup>2</sup>, Yu-Gang Jiang<sup>1</sup>, Luowei Zhou<sup>2</sup>, Lu Yuan<sup>2</sup> <br>
 <sup>1</sup>Shanghai Key Lab of Intelligent Information Processing, School of Computer Science, Fudan Univeristy, <sup>2</sup>Microsoft Cloud + AI
 
 > This repository hosts the official PyTorch implementation of the paper: "[**BEVT: BERT Pretraining of Video Transformers**](https://arxiv.org/abs/2112.01529)".
