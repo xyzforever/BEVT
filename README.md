@@ -20,7 +20,7 @@ This paper studies the BERT pretraining of video transformers. It is a straightf
 **Something-Something V2**
 
 | Backbone |  Pretrain   | Tokenizer | acc@1 | #params | FLOPs | Views | config | model |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  Swin-B  | ImageNet-1K + K400 |  DALL-E   |  70.6  |   89M   |  321G  |  1x3  |  ToDo  | ToDo |
 |  Swin-B  | ImageNet-1K + K400 |  PeCo     |  71.4  |   89M   |  321G  |  1x3  |  ToDo  | ToDo |
 
@@ -28,7 +28,7 @@ This paper studies the BERT pretraining of video transformers. It is a straightf
 **Kinetics-400**
 
 | Backbone |  Pretrain   | Tokenizer | acc@1 | #params | FLOPs | Views | config | model |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  Swin-B  | ImageNet-1K + K400 |  DALL-E   |  80.6  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
 |  Swin-B  | ImageNet-1K + K400 |  PeCo     |  81.5  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
 
