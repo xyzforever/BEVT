@@ -32,20 +32,33 @@ This paper studies the BERT pretraining of video transformers. It is a straightf
 |  Swin-B  | ImageNet-1K + K400 |  DALL-E   |  80.6  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
 |  Swin-B  | ImageNet-1K + K400 |  PeCo     |  81.5  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
 
-Note: BEVT does not need labels during pretraining.
+**Note**:
+
+- BEVT uses the visual tokenizer of pretrained VQ-VAE from [DALL-E](https://arxiv.org/abs/2102.12092) or [PeCo](https://arxiv.org/abs/2111.12710).
+- PeCo is only pretrained on ImageNet1K and uses the same codebook size as in DALL-E.
+- BEVT does not need labels during pretraining.
+
 
 ## To Do
 - [ ] Release pretraining code
 - [ ] Release fine-tuning code  
 - [ ] Release pretrained model
 
-## Citing BEVT
+
+## Citation
 
 ```
 @article{wang2021bevt,
   title={BEVT: BERT Pretraining of Video Transformers},
   author={Wang, Rui and Chen, Dongdong and Wu, Zuxuan and Chen, Yinpeng and Dai, Xiyang and Liu, Mengchen and Jiang, Yu-Gang and Zhou, Luowei and Yuan, Lu},
   journal={arXiv preprint arXiv:2112.01529},
+  year={2021}
+}
+
+@article{dong2021peco,
+  title={PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers},
+  author={Dong, Xiaoyi and Bao, Jianmin and Zhang, Ting and Chen, Dongdong and Zhang, Weiming and Yuan, Lu and Chen, Dong and Wen, Fang and Yu, Nenghai},
+  journal={arXiv preprint arXiv:2111.12710},
   year={2021}
 }
 ```
