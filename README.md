@@ -30,13 +30,14 @@ This paper studies the BERT pretraining of video transformers. It is a straightf
 | Backbone |  Pretrain   | Tokenizer | acc@1 | #params | FLOPs | Views | config | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  Swin-B  | ImageNet-1K + K400 |  DALL-E   |  80.6  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
-|  Swin-B  | ImageNet-1K + K400 |  PeCo     |  81.5  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
+|  Swin-B  | ImageNet-1K + K400 |  PeCo     |  81.1<sup>*</sup>  |   88M   |  282G  |  4x3  |  ToDo  | ToDo |
 
 **Note**:
 
 - BEVT uses the visual tokenizer of pretrained VQ-VAE from [DALL-E](https://arxiv.org/abs/2102.12092) or [PeCo](https://arxiv.org/abs/2111.12710).
 - PeCo is only pretrained on ImageNet1K and uses the same codebook size as in DALL-E.
 - BEVT does not need labels during pretraining.
+- <sup>*</sup> BEVT can achieve **81.5%** Top-1 accuracy on Kinetics-400 when using PeCo tokenizer for pretraining and finetuning for 100 epochs.  
 
 
 ## To Do
