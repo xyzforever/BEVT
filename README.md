@@ -41,10 +41,13 @@ This paper studies the BERT pretraining of video transformers. It is a straightf
 
 
 ## To Do
-- [ ] Release pretraining code
+- [x] Release pretraining code
 - [ ] Release fine-tuning code  
 - [ ] Release pretrained model
 
+## Acknowledgements
+
+This code is based on mmaction2 and Video Swin Transformer.
 
 ## Citation
 
