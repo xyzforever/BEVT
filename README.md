@@ -81,6 +81,8 @@ Then pretrain two stream of BEVT on ImageNet-1K and K400 (initialized from swin 
 bash tools/dist_train.sh configs/recognition/swin/swin_base_patch244_window877_bevt_in1k_k400.py --work-dir OUTPUT/swin_base_bevt_twostream --cfg-options total_epochs=150 model.backbone.pretrained='/path/to/save/swin_base_image_stream_pretrain.pth' --seed 0 --deterministic
 ```
 
+The pretrained model of BEVT could be downloaded at [google drive](https://drive.google.com/file/d/13pMnG1ylyyKmhx5MKNZvqe7jHtPMY9cy/view?usp=sharing).
+
 ### BEVT Finetuning
 
 Finetune BEVT model on K400 with 8 GPUs:
