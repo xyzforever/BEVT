@@ -64,8 +64,8 @@ Download DALL-E tokenizer weight before training:
 ```shell
 TOKENIZER_PATH=/path/to/save/dall_e_tokenizer_weight
 mkdir -p $TOKENIZER_PATH
-wget -o $TOKENIZER_PATH/encoder.pkl https://cdn.openai.com/dall-e/encoder.pkl
-wget -o $TOKENIZER_PATH/decoder.pkl https://cdn.openai.com/dall-e/decoder.pkl
+wget -O $TOKENIZER_PATH/encoder.pkl https://cdn.openai.com/dall-e/encoder.pkl
+wget -O $TOKENIZER_PATH/decoder.pkl https://cdn.openai.com/dall-e/decoder.pkl
 ```
 
 Set `tokenizer_path` in the config file. For example, `configs/recognition/swin/swin_base_patch244_window877_bevt_in1k_k400.py`:
