@@ -15,7 +15,7 @@ def cal_train_time(log_dicts, args):
             if args.include_outliers:
                 all_times.append(log_dict[epoch]['time'])
             else:
-                all_times.append(log_dict[epoch]['time'][1:])
+                all_times.append(log_dict[epoch]['time'][10:])
         all_times = np.array(all_times)
         epoch_ave_time = all_times.mean(-1)
         slowest_epoch = epoch_ave_time.argmax()
